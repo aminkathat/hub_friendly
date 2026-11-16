@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contect to Raisa_cloth</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        font-style:oblique ;
+        background-color: rgb(244, 232, 217);
+    }
+
+    .container {
+        /* border: 2px solid black; */
+        justify-content: center;
+        width: 400px;
+        height: 550px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+        background-color: rgb(244, 232, 217);
+
+
+    }
+
+    #btn {
+        justify-self: center;
+        align-self: center;
+        display: flex;
+    }
+
+    .form {
+        row-gap: 30px;
+
+        /* border: 2px solid black; */
+
+    }
+
+    #main {
+        gap: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2 id="information">SEND US A MESSAGE</h2>
+        <form action="information" class="form">
+            <div id="main">
+                <div>
+                    
+                    <input id="name" class="inf" type="text" placeholder="Enter the name" name="name"><br></br>
+                    <input id="number" class="inf" type="number" placeholder="Enter the number"><br></br>
+                    <input id="email" class="inf" type="email" placeholder="Enter the email"><br></br>
+                    <input id="address" class="inf" type="text" placeholder="Enter the full address"><br></br>
+                    <button id="btn" class="inf" type="submit">submit</button>
+
+                </div>
+        </form>
+    </div>
+</body>
+
+
+</html>
