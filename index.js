@@ -18,7 +18,11 @@ app.get('/', async (req, res) => {
     const studentsData = await collection.find().toArray();
     console.log(studentsData)
 
-    res.sendFile('RaisaAminkathat')
+    
+})
+
+app.get('/about',(red,res) =>{
+    res.sendFile(Path.join(__dirname,"Music/contect-page.html"))
 })
 
 app.listen(port, () => {
