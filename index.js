@@ -18,7 +18,7 @@ app.get('/', async (req, res) => {
     const studentsData = await collection.find().toArray();
     console.log(studentsData)
 
-    res.send('Hello World!')
+    res.sendFile('RaisaAminkathat')
 })
 
 app.listen(port, () => {
